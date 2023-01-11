@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" styleClass="bg" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clockify.Controller.AddController">
+   <children>
+      <Button layoutX="95.0" layoutY="57.0" mnemonicParsing="false" onAction="#addfile" prefHeight="41.0" prefWidth="170.0" text="Add file" />
+      <TextField fx:id="name" layoutX="338.0" layoutY="57.0" prefHeight="41.0" prefWidth="170.0" promptText="Name of person" styleClass="nofocus"/>
+      <TextField fx:id="files" alignment="CENTER" layoutX="93.0" layoutY="142.0" prefHeight="120.0" prefWidth="413.0" promptText="Files you've added will appear here" styleClass="nofocus"/>
+      <Button layoutX="93.0" layoutY="302.0" mnemonicParsing="false" onAction="#addperson" prefHeight="41.0" prefWidth="413.0" text="Add person" />
+   </children>
+</AnchorPane>

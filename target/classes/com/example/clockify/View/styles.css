@@ -1,0 +1,50 @@
+#video {
+    -fx-background-radius: 10px;
+}
+
+#bg {
+    -fx-background-color: #FCF6F5FF;
+}
+
+.bg {
+    -fx-background-color: #FCF6F5FF;
+}
+
+.button {
+    -fx-background-radius: 0.2em;
+    -fx-background-color: #8AAAE5;
+    -fx-focus-color: transparent;
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+.noheader .column-header-background {
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
+}
+
+.nofocus {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+
+@font-face {
+    font-family: "SFBold";
+    src: url("../fonts/SF-Pro-Display-Bold.otf");
+}
+
+.table-row-cell {
+    -fx-background-color: #FCF6F5FF;
+}
+
+.table-row-cell:selected {
+    -fx-background-color: #625854;
+}
+
+.scroll-bar {
+    -fx-max-height: 0;
+    -fx-pref-height: 0;
+    -fx-min-height: 0;
+}
+

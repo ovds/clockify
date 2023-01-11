@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="628.0" style="-fx-background-color: FCF6F5FF;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.clockify.Controller.PairController">
+   <children>
+      <ImageView fx:id="qrcode" fitHeight="250.0" fitWidth="250.0" layoutX="48.0" layoutY="48.0" pickOnBounds="true" preserveRatio="true" />
+      <Label alignment="CENTER" layoutX="48.0" layoutY="305.0" prefHeight="48.0" prefWidth="250.0" text="Scan with google authenticator">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <TextField fx:id="search" layoutX="333.0" layoutY="48.0" prefHeight="25.0" prefWidth="250.0" promptText="Enter name">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextField>
+      <TableView fx:id="table" layoutX="333.0" layoutY="103.0" prefHeight="250.0" prefWidth="250.0" styleClass="noheader">
+        <columns>
+          <TableColumn fx:id="names" prefWidth="249.0" text="Names" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>
